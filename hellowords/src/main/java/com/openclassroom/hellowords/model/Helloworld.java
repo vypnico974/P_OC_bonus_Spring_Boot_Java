@@ -3,7 +3,7 @@ package com.openclassroom.hellowords.model;
 
 public class Helloworld {
 
-    private String value = "Hello word!";
+    private String value = "Hello World!";
 
     public String getValue() {
         return value;
