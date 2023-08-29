@@ -1,14 +1,13 @@
-package com.openclassrooms.api;
+package com.openclassrooms.webapp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ApiApplication {
+public class WebappApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ApiApplication.class, args);
-		System.out.println("Hello, Api!");
+		SpringApplication.run(WebappApplication.class, args);
 	}
 
 }
